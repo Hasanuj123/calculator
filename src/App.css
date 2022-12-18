@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.ClaculatorDiv{
+  height: 83vh;
+  width: 32vw;
+}
+.operatioBtns{
+  /* width:23%; */
+  font-size:1.8rem;
+}
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .ClaculatorDiv{
+    width: 52vw;
+  }
+}
+@media only screen and (max-width: 766px) and (min-width: 577px) {
+  .ClaculatorDiv{
+    width: 75vw;
+  }
+}
+@media only screen  and (max-width: 576px) {
+  .ClaculatorDiv{
+    width: 90vw;
+  }
+}
